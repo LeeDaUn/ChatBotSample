@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--버튼 클릭 전 color 색상 radius 버튼의 모서리-->
+    <item android:state_enabled="false">
+        <shape>
+            <solid android:color="#00C6ED"></solid>
+            <corners android:radius="10dp"></corners>
+        </shape>
+    </item>
+    <!--버튼 클릭 됬을때-->
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="#0054FF"></solid>
+            <corners android:radius="10dp"></corners>
+        </shape>
+    </item>
+</selector>
